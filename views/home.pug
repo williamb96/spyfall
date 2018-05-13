@@ -1,6 +1,21 @@
 doctype html
 html
 	head
+		meta(name='viewport', content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0')
+		link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Montserrat:400,700')
+		link(rel='stylesheet', href='/assets/stylesheets/open-iconic.min.css')
+		link(rel='stylesheet', href='/assets/stylesheets/home.css')
+		script(src='/assets/javascript/jquery.min.js')
+		script(src='/assets/javascript/home.js')
 		title Spyfall
 	body
-		h1 Spyfall
+		header
+			h1 Spyfall
+		main
+			div#main-menu
+				button#join-btn <span class="oi" data-glyph="account-login"></span> Gå med i rum
+				button#create-btn <span class="oi" data-glyph="plus"></span> Skapa rum
+			div#join-menu
+				div Join!
+			div#create-menu
+				div Create!

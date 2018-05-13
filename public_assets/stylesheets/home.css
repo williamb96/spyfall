@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	background-color: #eeeeee;
+}
+
+header {
+	width: 100%;
+	background-image: url('/assets/images/background.jpg');
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0 0 4px black;
+}
+
+header>h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	line-height: 100px;
+}
+
+main {
+	text-align: center;
+}
+
+button {
+	background-color: white;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	cursor: pointer;
+	font-size: 12pt;
+	padding: 10px;
+	margin: 10px auto 0 auto;
+	border-radius: 5px;
+	width: 150px;
+	color: black;
+}
+
+button:not(:last-child) {
+	margin-right: 10px;
+}
+
+button>.oi {
+	font-size: 50pt;
+	display: block;
+	margin: 0 auto;
+}
+
+#join-menu {
+	display: none;
+}
+
+#create-menu {
+	display: none;
+}
+
+@media (max-width: 360px) {
+	button {
+		width: 100px;
+	}
+}
+
+@media (max-height: 500px) {
+	header>h1 {
+		line-height: 20vh;
+	}
+}

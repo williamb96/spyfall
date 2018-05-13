@@ -2,6 +2,8 @@ const express = require('express');
 
 const app = express();
 
+app.use('/assets', express.static('./public_assets'));
+
 app.get('/', (req, res) => {
 	res.render('home.pug');
 });
