@@ -1,0 +1,27 @@
+{
+  "name": "spyfall",
+  "version": "1.0.0",
+  "description": "Spyfall as a Node powered web app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamb96/spyfall.git"
+  },
+  "keywords": [
+    "spyfall",
+    "game"
+  ],
+  "author": "William",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamb96/spyfall/issues"
+  },
+  "homepage": "https://github.com/williamb96/spyfall#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  }
+}
